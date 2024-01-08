@@ -162,9 +162,11 @@
     width: 896px; /* 160% */
 }
 
+
 .gift-photos{
     width: 1320px;
     margin: auto;
+    margin-bottom: 120px;
 }
 .gift-items{
     width: 424px;
@@ -186,3 +188,53 @@
 .gift-items:hover{
     transform: scale(1.1);
 }  
+
+
+.news-letter{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: auto;
+}
+
+
+footer{
+    padding-top: 250px;
+    padding-bottom: 199px;
+    width: 1600px;
+    max-height: 609px;
+    background: #070211;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.line{
+    margin-top: 0px;
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.social-media{
+    
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.line-two{
+    margin-top: 48px;
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
