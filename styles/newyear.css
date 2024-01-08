@@ -162,19 +162,27 @@
     width: 896px; /* 160% */
 }
 
-
 .gift-photos{
     width: 1320px;
     margin: auto;
 }
 .gift-items{
     width: 424px;
-    height: 450px;    
+    height: 450px;  
+    transition: 0.5s;
     padding-right: 16px;
 }
 .gift-first-row{
     padding-top: 48px;
+    display: flex;
 }
 .gift-second-row{
     padding-top: 24px;
+    display: flex;
 }
+.gift-items img{
+    border-radius: 5px;
+}
+.gift-items:hover{
+    transform: scale(1.1);
+}  
