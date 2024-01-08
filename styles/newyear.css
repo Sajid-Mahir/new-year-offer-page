@@ -134,6 +134,49 @@
 }
 
 
+.party-joining{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.party-extra{
+    padding-top: 100px;
+    margin-left: 385px;
+}
+.party-text{
+    
+    width: 549px;
+    height: 168px;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    color: #070211;
+}
+.red-text{
+    color: #F00;
+}
+.party-button{
+    margin-top: 48px;
+    margin-left: 576px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
 .best-gifts{
     max-width: 1320px;
     margin-left: auto;
@@ -351,7 +394,7 @@ footer{
 }
 .footer-ending-text{
     margin-left: 140px;
-    width: 295px;
+    width: 320px;
     height: 29px;
     color: #FFF;
     font-family: Inter;
@@ -361,7 +404,7 @@ footer{
     line-height: normal;
 }
 .unsub{
-    margin-left: 880px;
+    margin-left: 860px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
