@@ -267,18 +267,59 @@
 
 
 footer{
-    padding-top: 250px;
-    padding-bottom: 199px;
     width: 1600px;
-    max-height: 609px;
+    height: 609px;
     background: #070211;
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
 }
+.footer-text{
+    display: flex;
+}
+
+.footer-text-1{
+    margin-top: 120px;
+    margin-left: 140px;
+    width: 375px;
+    height: 80px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.footer-pic1{
+    position: absolute;
+    margin-top: 128px;
+    margin-left: 1074px;
+    width: 24px;
+    height: 24px;
+}
+.footer-pic2{
+    position: absolute;
+    margin-top: 168px;
+    margin-left: 1074px;
+    width: 24px;
+    height: 24px;
+}
+.footer-text-2{
+    margin-top: 120px;
+    margin-left: 599px;
+    width: 195px;
+    height: 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+
 
 .line{
-    margin-top: 0px;
+    margin-top: 50px;
     width: 1320px;
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
@@ -288,10 +329,9 @@ footer{
 }
 
 .social-media{
-    
     margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 640px;
+    margin-right: 632px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -304,4 +344,30 @@ footer{
     background: rgba(255, 255, 255, 0.15);
     margin-left: auto;
     margin-right: auto;
+}
+.footer-ending{
+    margin-top: 50px;
+    display: flex;
+}
+.footer-ending-text{
+    margin-left: 140px;
+    width: 295px;
+    height: 29px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.unsub{
+    margin-left: 880px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: none;
+    border: none;
 }
