@@ -1,6 +1,6 @@
 *{
     font-family: 'Merriweather', serif;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -196,6 +196,73 @@
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     margin: auto;
+}
+.news-letter .news-pic{
+    width: 150px;
+    height: 150px;
+    margin-left: 585px;
+    margin-top: 80px;
+    margin-bottom: 40px;     
+}
+.news-title{
+    color: #070211;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.news-desc{
+    
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: auto;
+}
+.email-button{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 336px;
+}
+.email-bar{
+    padding-left: 30px;
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+}
+.news-letter input[type="email"]::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+}
+.sub-button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+.news-letter input[type="button"]{
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
 }
 
 
