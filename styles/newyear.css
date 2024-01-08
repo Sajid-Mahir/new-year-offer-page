@@ -161,3 +161,20 @@
     line-height: 32px;
     width: 896px; /* 160% */
 }
+
+
+.gift-photos{
+    width: 1320px;
+    margin: auto;
+}
+.gift-items{
+    width: 424px;
+    height: 450px;    
+    padding-right: 16px;
+}
+.gift-first-row{
+    padding-top: 48px;
+}
+.gift-second-row{
+    padding-top: 24px;
+}
